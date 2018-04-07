@@ -34,15 +34,23 @@ for individualCharacter in input {
     print(individualCharacter)
     
     //is the character happy, sad, or neither
-    if individualCharacter == "" {
+    if individualCharacter == "😂" {
         happyCount += 1
-    } else if individualCharacter == "" {
+    } else if individualCharacter == "☹️" {
         sadCount += 1
         
     }
 }
 
 // Outpuut
-
+if happyCount > sadCount {
+    print("happy")
+} else if
+    happyCount == sadCount{
+    print ("unsure")}
+else if
+    happyCount < sadCount {
+    print ("sad")
+}
 
 
